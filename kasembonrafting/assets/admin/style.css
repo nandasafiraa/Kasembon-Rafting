@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700'); 
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    font-family: 'Cabin', sans-serif;
+}
+.nav-md{
+    background: #884bdf;
+}
+.left_col{
+    background: #884bdf;
+}
+.nav_title{
+    background: #884bdf;
+}
+td,th,tr{
+    text-align: center;
+    padding: 5px;
+}
+.button-login{
+    font-size:15px;
+    background:#fb397d;
+    margin-bottom:40px;
+    padding: 10px 30px;
+    color:white;
+    border-radius: 25px 25px 25px 0;
+}
+.button-login:hover{
+    background:#5b32b4;
+    color:white;
+    transition: 0.4s;
+}
+.login_content.input-login{
+    border-radius: 25px 25px 25px 0;  
+}
+#center-button{
+    margin-left:80px;
+}
+.side-menu li a{
+    font-size:14px;
+}
+
+.login_content h1{
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    color:#726a84;
+}
+.login_content p{
+    font-family: 'Cabin', sans-serif;
+    color:#726a84;
+}
+.aksi i{
+    color:#212529;
+    cursor: pointer;
+}
+.aksi i:hover{
+    color: #fb397d;
+}
+.btn{
+    margin-right: 0;
+}
+.x_content h2{
+    color: #212529;
+    font-weight: 500;
+}
+.site_title{
+    padding-left: 25px;
+    padding-top: 12px;
+    font-weight: 600;
+}
+.profile_info span{
+    color: #E7E7E7;
+}
+.profile_info h2{
+    font-weight: bold;
+}
+.preview-img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+.header_reservasi.sticky {
+    background-color: #884bdf;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header_reservasi.sticky .menu_area #nav .nav-link {
+    padding: 23px 15px;
+}
+.header_reservasi.sticky .menu_area .navbar-brand {
+    font-size: 50px;
+}
+.header_reservasi.sticky .navbar {
+    padding: 0;
+}
+.header_reservasi {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 0 4%;
+}
+#nama, #emailuser, #telpon, #paket_id, #jumlah_orang, #untuk_tanggal, #catatan{
+    border-radius: 25px 25px 25px 0;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+.reservasi-input::-webkit-input-placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.reservasi-input:-ms-input-placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.reservasi-input::-ms-input-placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.reservasi-input::placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.title-purple{
+    margin-top: 5px;
+    color: #5b32b4;
+    font-size: 22px;
+}
+
+#reservasiuser, #beritauser{
+    background:#f5f9fc;
+}
+.square-box{
+    width:250px;
+}
+.square-box img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+.button-menu{
+    font-size:15px;
+    background:#fb397d;
+    margin-bottom:15px;
+    padding: 6px 20px;
+    color:white;
+    border-radius: 25px 25px 25px 0;
+}
+.button-menu:hover{
+    background:#5b32b4;
+    color:white;
+    transition: 0.4s;
+}
+a:hover,
+a:active,
+a:focus,
+input:hover,
+input:active,
+input:focus,
+button:hover,
+button:active,
+button:focus {
+  outline: 0;
+}
+#search{
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    padding: 6px 20px;
+    /* background:#726a84; */
+    border:#726a84 2px solid;
+    border-radius: 25px 25px 25px 0;
+}
+#search::-webkit-input-placeholder {
+    color: #726a84;
+}
+
+#search:-ms-input-placeholder {
+    color: #726a84;
+}
+
+#search::-ms-input-placeholder {
+    color: #726a84;
+}
+
+.reservasi-input::placeholder {
+    color: #726a84;
+}
+

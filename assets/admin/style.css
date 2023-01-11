@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700'); 
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    font-family: 'Cabin', sans-serif;
+}
+.nav-md{
+    background: #884bdf;
+}
+.left_col{
+    background: #884bdf;
+}
+.nav_title{
+    background: #884bdf;
+}
+td,th,tr{
+    text-align: center;
+    padding: 10px;
+}
+.input-login{
+    font-size:15px;
+    background:#884bdf;
+    margin-bottom:40px;
+    color:white;
+}
+#center-button{
+    margin-left:100px;
+}
+.side-menu li a{
+    font-size:14px;
+}
+
+.login_content h1{
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+}
+.aksi i{
+    color:#212529;
+    cursor: pointer;
+}
+.btn-dark{
+    background: #5b32b4;
+    height:35px;
+    font-size:15px;
+}
+.x_content h2{
+    color: #212529;
+}
+.site_title{
+    padding-left: 25px;
+    padding-top: 12px;
+    font-weight: 600;
+}
+.profile_info span{
+    color: #E7E7E7;
+}
+.profile_info h2{
+    font-weight: bold;
+}
+.preview-img{
+    width: 80px;
+    height: 80px;
+}
+.header_reservasi.sticky {
+    background-color: #884bdf;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header_reservasi.sticky .menu_area #nav .nav-link {
+    padding: 23px 15px;
+}
+.header_reservasi.sticky .menu_area .navbar-brand {
+    font-size: 50px;
+}
+.header_reservasi.sticky .navbar {
+    padding: 0;
+}
+.header_reservasi {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 0 4%;
+}
+#nama, #emailuser, #telpon, #paket_id, #jumlah_orang, #untuk_tanggal, #catatan{
+    border-radius: 25px 25px 25px 0;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+.reservasi-input::-webkit-input-placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.reservasi-input:-ms-input-placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.reservasi-input::-ms-input-placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
+
+.reservasi-input::placeholder {
+    color: #212529;
+    opacity: 0.8;
+}
